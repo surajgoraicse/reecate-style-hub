@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        body: ['Inter', 'sans-serif'],
+      },
       colors: {
+        'luxury-gold': 'hsl(var(--luxury-gold))',
+        'warm-cream': 'hsl(var(--warm-cream))',
+        'charcoal': 'hsl(var(--charcoal))',
+        'terracotta': 'hsl(var(--terracotta))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -84,6 +92,9 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.6s ease-out",
+        "slide-up": "slide-up 0.6s ease-out",
+        "bounce-subtle": "bounce-subtle 0.6s ease-out",
       },
     },
   },
